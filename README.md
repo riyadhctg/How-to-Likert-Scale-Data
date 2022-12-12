@@ -84,3 +84,7 @@ This test can be used for ordinal data, to check if the `hypothesized` median is
 - Then, in Objective > (select automatically compare….)
 - In Fields > Keep the likert field in the test fields
 - In Setting > Select customize test, select Wilcoxon signed-rank test, input hypothesized median
+
+
+### Acknowledgement:
+Thanks for Dr. Chen for guidelines and tips.
