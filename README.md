@@ -37,8 +37,8 @@ The `skewness` and `kurtosis` statistics value should be less than ± 1.0 to be 
 - Fill in the dependent variable (keep the factors empty so check normality of the entire dataset)
 - Look for Skewness and Kurtosis score
 
-
-### Descriptive statistics, percentages etc.
+&nbsp;
+### Descriptive statistics, percentages etc.:
 Median, mode, mean etc. (Median is more appropriate for Likert scale data, since it is ordinal and distance between each Likert scale labels cannot be determined… though many assume the likert labels have equal distance, therefore use the mean anyway)
 
 **SPSS Steps**:
@@ -59,7 +59,7 @@ Median, mode, mean etc. (Median is more appropriate for Likert scale data, since
 - For element properties > variable statistics > we can select percentage or count (or other option as appropriate)
 *We can probably play with few variations and generate few graphs based on the need*
 
-
+&nbsp;
 ### Chi square:
 **Good short tutorial to watch:**
 https://www.youtube.com/watch?v=rW6u-tvYmGE&ab_channel=EasyStatisticsNow
@@ -71,7 +71,7 @@ https://www.youtube.com/watch?v=rW6u-tvYmGE&ab_channel=EasyStatisticsNow
 - Cells button > Select Observed and Expected
 
 
-
+&nbsp;
 ### Wilcoxon signed rank test:
 This test can be used for ordinal data, to check if the `hypothesized` median is the same as the `observered` median. 
 
