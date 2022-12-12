@@ -15,13 +15,15 @@ As for doing statistical tests, it depends if you have anything to compare and w
  
 For ordinal data, more can be done. For example, you might like to compare if the responses are above the midpoint. Depending on the distribution, you may like to run a Wilcoxon one-sample test if the distribution of the data looks skewed, but if the distribution is normal, you might like to run a one-sample t-test. 
  
-
+&nbsp;
+&nbsp;
 ---
 
 ## Quick Statistic Refresher
 - https://www.youtube.com/watch?v=4q5UZwwidRI&ab_channel=CSSLOhioStateU 
 
-
+&nbsp;
+&nbsp;
 ---
 
 ## Using SPSS to analyze the data
