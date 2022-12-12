@@ -86,5 +86,7 @@ This test can be used for ordinal data, to check if the `hypothesized` median is
 - In Setting > Select customize test, select Wilcoxon signed-rank test, input hypothesized median
 
 
+
+---
 ### Acknowledgement:
 Thanks for Dr. Chen for guidelines and tips.
