@@ -29,6 +29,7 @@ For ordinal data, more can be done. For example, you might like to compare if th
 ### How to input Likert data into SPSS:
 https://www.youtube.com/watch?v=UxdWZzG42R8&ab_channel=Dr.ToddGrande 
 
+&nbsp;
 ### Check If Normal or Skewed:
 The `skewness` and `kurtosis` statistics value should be less than ± 1.0 to be considered normal.
 
