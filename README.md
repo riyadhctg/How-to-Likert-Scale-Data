@@ -89,4 +89,4 @@ This test can be used for ordinal data, to check if the `hypothesized` median is
 
 ---
 > ### Acknowledgement:
-> Thanks to Dr. Chen for guidelines and tips.
+> Thanks to Dr. Chan for guidelines and tips.
