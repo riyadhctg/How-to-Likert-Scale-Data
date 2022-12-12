@@ -56,12 +56,13 @@ Median, mode, mean etc. (Median is more appropriate for Likert scale data, since
 - Charts button > Select Bar charts and Percentages
 
 **SPSS steps: Getting Stacked bar:**
+- Short introductory video: https://www.youtube.com/watch?v=-Vzogn3NeSk
 - Graphs > Graph Builder (drag it)
 - *We can probably play with few variations and generate few graphs based on the need*
-- For example
- - For x-axis > we can drag one of the factors
- - For Stack > set color > we can drag the dependent variable (i.e, likert scale data / labels)
- - For element properties > variable statistics > we can select percentage or count (or other option as appropriate)
+- For example:
+	 - For x-axis > we can drag one of the factors
+	 - For Stack > set color > we can drag the dependent variable (i.e, likert scale data / labels)
+	 - For element properties > variable statistics > we can select percentage or count (or other option as appropriate)
 
 &nbsp;
 ### Chi square:
