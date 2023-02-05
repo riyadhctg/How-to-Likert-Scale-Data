@@ -14,6 +14,14 @@ In addition to percentages to summarize the data, means, standard deviations, an
 As for doing statistical tests, it depends if you have anything to compare and what to compare. For example, a chi square allows you to compare 2 nominal variables (to see if there is a relationship between them) -- e.g., marital status (single, married, diverced) and education (high school, bachelors, masters). 
  
 For ordinal data, more can be done. For example, you might like to compare if the responses are above the midpoint. Depending on the distribution, you may like to run a Wilcoxon one-sample test if the distribution of the data looks skewed, but if the distribution is normal, you might like to run a one-sample t-test. 
+
+### Hypothesis test
+Typically, a null hypothesis state that: `there is no difference between groups or no relationship between variables`
+
+Reject the null hypothesis when the p-value is less than or equal to your significance level. 
+
+Example:
+If the p-value is more than the significance level (typically 0.05 or 0.01), the null hypothesis for the Shapiro-Wilk test is that a variable is normally distributed in some given population. Therefore, if the p-value is less or equal to the significance level, then it is not a normal distribution.
  
 &nbsp;
 &nbsp;
