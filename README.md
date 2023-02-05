@@ -15,7 +15,7 @@ As for doing statistical tests, it depends if you have anything to compare and w
  
 For ordinal data, more can be done. For example, you might like to compare if the responses are above the midpoint. Depending on the distribution, you may like to run a Wilcoxon one-sample test if the distribution of the data looks skewed, but if the distribution is normal, you might like to run a one-sample t-test. 
 
-### Hypothesis test
+### Hypothesis test:
 Typically, a null hypothesis state that: `there is no difference between groups or no relationship between variables`
 
 Reject the null hypothesis when the p-value is less than or equal to your significance level. 
@@ -97,6 +97,24 @@ This test can be used for ordinal data, to check if the `hypothesized` median is
 - Then, in Objective > (select automatically compare….)
 - In Fields > Keep the likert field in the test fields
 - In Setting > Select customize test, select Wilcoxon signed-rank test, input hypothesized median
+
+
+### Paired t-test and Related-samples Wilcoxon signed-rank test
+Example use case:
+Comparing likert responses for the same question sets from two participants... or asking the same questions before and after and look for the differences.
+
+If your data is normal, then use paired t-test. Otherwise, you can use Related-samples Wilcoxon signed-rank test.
+
+**Good short tutorials to watch**:
+- https://www.youtube.com/watch?v=lAqbc8_t6fA&ab_channel=MohamedBenhima 
+
+**SPSS Steps for Paired t-test:**
+- Analyze > Compare Means > Paired Sampel T-Test
+- Drag the variables that you want to test (i.e., two columns with each set of likert responses)
+
+**SPSS Steps for Related-samples Wilcoxon signed-rank test:**
+- Analyze > Non parametric test > Related Samples 
+- From options you can select Wilcoxon test
 
 
 
