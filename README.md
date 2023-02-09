@@ -128,7 +128,7 @@ Compare responses of the same survey from two raters to check if their answers a
 - Drag the variables to Items
 - Select Intraclass correlation coefficient at the bottom. Optionally, select other items in descriptive, summaries and inter-item if required
 NOTE:
-- The ICC score is between 0 and 1. 0.5 indicate poor reliability, between 0.5 and 0.75 moderate reliability, between 0.75 and 0.9 good reliability, and any value above 0.9 indicates excellent reliability.
+- The ICC score is between 0 and 1. A score of 0.5 indicate poor reliability, between 0.5 and 0.75 moderate reliability, between 0.75 and 0.9 good reliability, and any value above 0.9 indicates excellent reliability.
 - It doesn't have any significance score.
 - Short and useful video: https://youtu.be/1Avl7DzKmnc 
 
