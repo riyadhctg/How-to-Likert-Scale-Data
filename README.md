@@ -1,4 +1,4 @@
-## How to Analyze Likert Scale Data
+## How to Analyze Likert Scale Data (and more)
 
 ### Ask yourself these questions first:
 - Based on the data I collected, what can it tell me and what are the kinds of questions I can ask? 
@@ -99,9 +99,10 @@ This test can be used for ordinal data, to check if the `hypothesized` median is
 - In Setting > Select customize test, select Wilcoxon signed-rank test, input hypothesized median
 
 
+&nbsp;
 ### Paired t-test and Related-samples Wilcoxon signed-rank test
 Example use case:
-Comparing likert responses for the same question sets from two participants... or asking the same questions before and after and look for the differences.
+Use a paired t-test when each subject has a pair of measurements, such as a before and after score.
 
 If your data is normal, then use paired t-test. Otherwise, you can use Related-samples Wilcoxon signed-rank test.
 
@@ -115,6 +116,30 @@ If your data is normal, then use paired t-test. Otherwise, you can use Related-s
 **SPSS Steps for Related-samples Wilcoxon signed-rank test:**
 - Analyze > Non parametric test > Related Samples 
 - From options you can select Wilcoxon test
+
+
+&nbsp;
+### Correlation (ICC, Pearson, Kendall, Spearman):
+Example use case:
+Compare responses of the same survey from two raters to check if their answers are correlated to each other
+
+**SPSS Steps for ICC**
+- Analyze > Scale > Reliability Analysis
+- Drag the variables to Items
+- Select Intraclass correlation coefficient at the bottom. Optionally, select other items in descriptive, summaries and inter-item if required
+NOTE:
+- The ICC score is between 0 and 1. 0.5 indicate poor reliability, between 0.5 and 0.75 moderate reliability, between 0.75 and 0.9 good reliability, and any value above 0.9 indicates excellent reliability.
+- It doesn't have any significance score.
+- Short and useful video: https://youtu.be/1Avl7DzKmnc 
+
+**SPSS Steps for Pearson / Kendall / Spearman**
+- Analyze > Correlale > Bivariate 
+- Drag the variables you want to compare from the left to right
+- Select Pearson AND/OR Kendall's tau-b AND/OR Spearman
+NOTES: 
+- Pearson is for arametric data whereas Spearman and Kendall are both for non-parametric. Kendall is based on concordant and discordant pairs. It's more strict and usually same data yields less correlation score with Kendall compared to Spearman which calculates score based on deviations/distance.
+- The coeffecient score is between +/-1. -1 means pure negative correlation, +1 means pure positive correlation. Anything positive typically suggests some correlations.
+- It has a significance score that indicates whether the correlation is significant or not.
 
 
 
