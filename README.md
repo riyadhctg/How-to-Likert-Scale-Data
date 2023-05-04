@@ -41,11 +41,17 @@ https://www.youtube.com/watch?v=UxdWZzG42R8&ab_channel=Dr.ToddGrande
 
 &nbsp;
 ### Check If Normal or Skewed:
-The `skewness` and `kurtosis` statistics value should be less than ± 1.0 to be considered normal.
+The `skewness` and `kurtosis` statistics value should be within ± 1.0 to be considered normal or as close to zero as possible.
+However, in reality, data can be often skewed and kurtotic. A small departure from zero should not be a big issue, as long as the measures are not too large compare to their standard errors. Consequently, we need to divide the measure (Skewness and Kurtosis) by the standard error, which should give its z-value, which should be somewhere between -1.96 and +1.96.
+
+Useful link: https://www.youtube.com/watch?v=IiedOyglLn0&ab_channel=KentL%C3%B6fgren 
+
+We can also use Shapiro-Wilk Significance test for this. Here the null hypothesis is that the data is normally distributed, and if the p-value is equal or less than the significance level (e.g., 0.05), then we reject the null hypothesis.
 
 **SPSS Steps**:
 - Analyze > Descriptive Statistics > Explore
 - Fill in the dependent variable (keep the factors empty so check normality of the entire dataset)
+- In "Plots" - select Normality plots with test (for Shapiro-Wilk test)
 - Look for Skewness and Kurtosis score
 
 &nbsp;
