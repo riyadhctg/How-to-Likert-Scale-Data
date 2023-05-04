@@ -1,4 +1,4 @@
-## How to Analyze Likert Scale Data (and more)
+## Notes on Statistics for Research Publications
 
 ### Ask yourself these questions first:
 - Based on the data I collected, what can it tell me and what are the kinds of questions I can ask? 
